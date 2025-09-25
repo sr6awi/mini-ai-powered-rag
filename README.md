@@ -48,6 +48,36 @@ This combination ensures answers are **accurate, fluent, and robust**.
 
 ---
 
+## 📸 Screenshots
+
+### 🔎 FAISS Retrieval Preview
+![Retrieval Preview](assets/retrieval.png)
+
+### 🎯 Extractive Answer (DistilBERT)
+![Extractive Answer](assets/extractive.png)
+
+### 🗣️ Generative Answer (Flan-T5)
+![Generative Answer](assets/generative.png)
+
+### ⚡ End-to-End Pipeline
+
+📄 PDFs 
+   ↓
+🧹 Preprocessing & Chunking
+   ↓
+🔎 FAISS Vector Search
+   ↓
+   ├─ 🎯 DistilBERT (Extractive QA)
+   └─ 🗣️ Flan-T5 (Generative QA)
+   ↓
+⚡ Hybrid Answer
+
+
+
+
+
+
+---
 ## 🚀 Installation
 Clone the repo and install dependencies:
 
@@ -55,3 +85,4 @@ Clone the repo and install dependencies:
 git clone https://github.com/sr6awi/mini-ai-powered-rag.git
 cd mini-ai-powered-rag
 pip install -r requirements.txt
+
