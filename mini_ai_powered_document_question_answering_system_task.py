@@ -303,7 +303,7 @@ import numpy as np
 from openai import OpenAI
 
 client = OpenAI(
-    api_key="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",
+    api_key="api-key",
      base_url="https://openrouter.ai/api/v1"
      )
 
